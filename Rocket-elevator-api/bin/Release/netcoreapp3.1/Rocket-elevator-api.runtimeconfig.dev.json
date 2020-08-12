@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Otomation\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Otomation\\.nuget\\packages"
+    ]
+  }
+}
