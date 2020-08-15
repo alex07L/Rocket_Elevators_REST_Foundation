@@ -86,13 +86,13 @@ namespace Rocket_elevator_api
             return "";
         }
 
-        private DateTime saveDateTime(DbDataReader reader, String column)
+        private DateTime? saveDateTime(DbDataReader reader, String column)
         {
             if (!reader.IsDBNull(column))
             {
                 return reader.GetDateTime(column);
             }
-            return new DateTime();
+            return null;
         }
     }
 }

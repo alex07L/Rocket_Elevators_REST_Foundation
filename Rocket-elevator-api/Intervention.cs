@@ -18,8 +18,8 @@ namespace Rocket_elevator_api
         public int Column { get; set; }
         public int Elevator { get; set; }
         public int Employee { get; set; }
-        public DateTime Start { get; set; }
-        public DateTime End { get; set; }
+        public DateTime? Start { get; set; }
+        public DateTime? End { get; set; }
         public String Result { get; set; }
         public String Rapport { get; set; }
         public String Status { get; set; }
